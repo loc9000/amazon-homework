@@ -1,43 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-</head>
-<body>
-    <header class="container">
-        <img src="https://via.placeholder.com/103x31" alt="Amazon Logo">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/main.css">
+  </head>
+  <body>
+
+    <header>
+
     </header>
     <main class="container">
-        <ul>
-            <h1>Sign In</h1>
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email(phone or mobile accounts)</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div class="row">
+            <div class="col-4 offset-4">
+                <div id="logo-container" class="my-4">
+                    <img class="d-block mx-auto" src="https:via.placeholder.com/103x31" alt="Amazon logo">
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                <div id="form-container" class="p-4">
+                    <form action="">
+                        <div class="content-container">
+                        
+                            <h2>Sign In</h2>
+
+                            <div class="form-group">
+                            <label for="">
+                                <small>
+                                    <strong>
+                                        Email (phone for mobile accounts)
+                                    </strong>
+                                </small>
+                            </label>
+                            <input type="text" class="form-control" type="email">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="d-block">
+                                <small>
+                                    <strong>
+                                        Password 
+                                        <span class="float-right"><a href="#">Forgot Password?</a></span>
+                                    </strong>
+                                </small>
+                            </label>
+                            <input type="password" class="form-control">
+                        </div>
+                    </form>
+                    </div> 
+                    <button id="login" class="btn btn-secondary btn-block btn-sm">Continue</button>
+                    <p>
+                        <a href="">
+                            <small>&#10148; Need Help?</small>
+                        </a>
+                    </p>
                 </div>
-                <div class="form-group form-check">
+                <div id="bottom-content-container">
+                    <small class="background">
+                        <span>New To Amazon?</span>
+                    </small>
+
                 </div>
-                <button type="submit" class="btn btn-primary">Continue</button>
-            </form>
-        </ul>
+                <div id="customer-button-container">
+                    <button class="btn btn-sm btn-secondary btn-block">
+                        Create Your Amazon Account
+                    </button>
+                </div>
+                </div>
+            </div>
+
+        </div>
+            <hr>
+            <div class="col-4 offset-4">
+                <div id="footer-info-container">
+                    <small>
+                        <ul class="list-unstyled d-flex justify-content-between">
+                            <li><a href="#">Conditions of Use</a></li>
+                            <li><a href="#">Privacy Notice</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                        <p class="text-center"></p>
+                            &copy; 1996-2020, Amazon.com,inc or it's affiliates
+                        </p>
+                    </small>
+                </div>
+            </div>
     </main>
     <footer>
 
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-        crossorigin="anonymous"></script>
-</body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>

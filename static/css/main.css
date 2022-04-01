@@ -1,0 +1,23 @@
+#form-container p{
+    padding-top: 20px;
+}
+
+#form-container{
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 4px; 
+}
+
+#login{
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    /* copied from amazon */
+    color: #111;
+}
+
+#bottom-content-container{
+    text-align: center;
+    margin: 10px;
+}
+
+/* I don't get the line behind "New To Amazon" */
+   
